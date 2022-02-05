@@ -60,13 +60,13 @@ header .container {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.7rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
   box-shadow: 4px 4px 0 0 var(--accent-color);
@@ -87,8 +87,8 @@ header .container {
 
 .hero-btn {
   border-radius: 3px;
-  font-size: 1.2rem;
-  padding: 1.5rem 3rem;
+  font-size: 0.8rem;
+  padding: 1rem 1.5rem;
 }
 
 /* COUNTDOWN SECTION */

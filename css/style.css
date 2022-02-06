@@ -8,8 +8,9 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #000000;
   --font-color: #ffffff;
+  --font2-color: #000000;
   --btn-bg-color: #ffffff;
   --accent-color: #ff000069; 
   --header-shadow: #000 0px 0px 5px;
@@ -35,13 +36,35 @@ body {
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  height: 380px;
+  margin: 0 auto;
+  padding: 0.5rem 10rem;
+}
+
+/* The element you want to fix the position of */
+.fixed {
+  width: 960px;
+  height: 70px;
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-color);
+  /* Do not set top / left! */
 }
 
 /* HEADER */
 
 header {
   box-shadow: var(--header-shadow);
+  background-color: var(--bg-color);   
 }
 
 header .container {
@@ -154,6 +177,13 @@ section {
   margin-bottom: 2rem;
   text-align: center;
 }
+
+.countdown p2 {
+  text-shadow: 1px 1px 0 var(--font2-color);
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  text-align: center;
 
 /* OWNER STYLES */
 
